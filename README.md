@@ -1,5 +1,5 @@
 ## Название проектной работы
-[Kalyaka](https://kulembetov.github.io/bikes)
+[Bikes](https://kulembetov.github.io/bikes)
 
 ## Описание
 Одностраничный сайт, был свёрстан по макету из Figma и адаптирован под различные устройства (320px, 1440px). Сделан в рамках учёбной деятельности в [Яндекс.Практикуме](https://practicum.yandex.ru) на факультете ["Веб-разработчик плюс"](https://practicum.yandex.ru/web-plus).
