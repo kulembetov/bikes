@@ -1,0 +1,16 @@
+.bikes__button {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .bikes__button:nth-child(1):checked ~ .bikes__link {
+    transform: translate(0);
+  }
+  .bikes__button:nth-child(2):checked ~ .bikes__link {
+    transform: translate(-100%);
+  }
+
+  .bikes__button:nth-child(3):checked ~ .bikes__link {
+    transform: translateX(-200%);
+  }
+}

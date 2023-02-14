@@ -1,0 +1,10 @@
+.quote__content {
+  display: flex;
+  gap: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .quote__content {
+    flex-direction: column;
+  }
+}

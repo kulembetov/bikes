@@ -1,0 +1,32 @@
+.specification__button {
+  width: 50px;
+  height: 50px;
+  background-color: #ebebeb;
+  background-image: url(../../../images/arrow-left.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.specification__button:nth-child(2) {
+  transform: rotate(180deg);
+}
+
+.specification__button:hover {
+  opacity: .6;
+}
+
+.specification__button:disabled {
+  opacity: .3;
+}
+
+@media screen and (max-width: 767px) {
+  .specification__button {
+    width: 24px;
+    height: 24px;
+    background-size: 4.5px 10px;
+  }
+}

@@ -1,0 +1,6 @@
+.footer__box {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: baseline;
+}

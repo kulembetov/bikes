@@ -1,0 +1,32 @@
+.footer__input_type_switcher {
+  width: 44px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+  appearance: none;
+  position: relative;
+}
+
+.footer__input_type_switcher:checked {
+  background-color: #545454;
+}
+
+.footer__input_type_switcher:before {
+  width: 20px;
+  height: 20px;
+  background-color: #24b47e;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100px;
+  transition: 0.5s;
+}
+
+.footer__input_type_switcher:checked:before {
+  background-color: #24b47e;
+  transform: translateX(100%);
+}

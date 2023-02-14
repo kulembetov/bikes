@@ -1,0 +1,15 @@
+.intro__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #222;
+  opacity: .7;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__description {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}

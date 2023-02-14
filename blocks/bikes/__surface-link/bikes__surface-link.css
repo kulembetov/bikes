@@ -1,0 +1,11 @@
+.bikes__surface-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #222;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .7;
+  transition: .3s;
+  margin: 0;
+}

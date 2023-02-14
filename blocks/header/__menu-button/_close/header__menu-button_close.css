@@ -1,0 +1,5 @@
+.header__menu-button_close {
+  background-image: url('../../../../images/close.svg');
+  background-size: auto;
+  transition: all .3s ease-in-out;
+}

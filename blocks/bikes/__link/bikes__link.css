@@ -1,0 +1,4 @@
+.bikes__link {
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}

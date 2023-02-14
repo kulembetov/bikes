@@ -1,0 +1,10 @@
+.bikes__selector {
+  display: grid;
+  grid-template: 1fr / 1fr;
+}
+
+/* @media screen and (max-width: 767px) {
+  .bikes__selector {
+    display: none;
+  }
+} */

@@ -1,0 +1,18 @@
+.training {
+  margin: 0 auto;
+  display: grid;
+  gap: 50px;
+  grid-template: min-content 1fr / minmax(min-content, 460px) minmax(min-content, 580px);
+  justify-content: space-between;
+  padding: 90px 120px 120px;
+}
+
+@media screen and (max-width: 767px) {
+  .training {
+    max-width: 100%;
+    padding: 275px 0 60px;
+    grid-template: repeat(3, min-content) / 1fr;
+    gap: 40px;
+    padding: 40px 18px 60px;
+  }
+}

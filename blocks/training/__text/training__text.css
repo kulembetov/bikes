@@ -1,0 +1,11 @@
+.training__text {
+  display: flex;
+  flex-direction: column;
+  gap: 180px;
+}
+
+@media screen and (max-width: 767px) {
+  .training__text {
+    gap: 40px;
+  }
+}

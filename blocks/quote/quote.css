@@ -1,0 +1,9 @@
+.quote {
+  padding: 120px 120px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .quote {
+    padding: 20px 18px 0;
+  }
+}
