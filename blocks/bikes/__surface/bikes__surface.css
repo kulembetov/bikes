@@ -1,0 +1,11 @@
+.bikes__surface {
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .bikes__surface {
+    display: none;
+  }
+}

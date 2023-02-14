@@ -1,0 +1,34 @@
+.buttons__item {
+  width: 4px;
+  height: 4px;
+  background-image: url(../../../images/ellipse.svg);
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.buttons__item:nth-child(1n) {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.buttons__item:nth-child(2n) {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .cards__item.buttons__item:checked:nth-child(1) {
+    transform: translateX(0);
+  }
+
+  .cards__item.buttons__item:checked:nth-child(2) {
+    transform: translateX(-100%);
+  }
+
+  .cards__item.buttons__item:checked:nth-child(3) {
+    transform: translateX(-200%);
+  }
+}
+

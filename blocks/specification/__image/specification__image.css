@@ -1,0 +1,13 @@
+.specification__image {
+  max-width: 650px;
+  max-height: 400px;
+  display: block;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .specification__image {
+    min-width: 254px;
+    min-height: 254px;
+  }
+}

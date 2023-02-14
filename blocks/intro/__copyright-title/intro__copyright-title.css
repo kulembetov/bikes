@@ -1,0 +1,17 @@
+.intro__copyright-title {
+  max-height: 260px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  color: #151515;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0;
+}
+
+.intro__copyright-title::after {
+  content: " ";
+  width: 132px;
+  border: 2px solid #d7d4d4;
+}

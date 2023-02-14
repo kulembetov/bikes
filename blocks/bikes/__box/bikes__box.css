@@ -1,0 +1,12 @@
+.bikes__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+@media screen and (max-width: 767px) {
+  .bikes__box {
+    display: inline-block;
+  }
+
+}

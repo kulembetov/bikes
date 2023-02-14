@@ -1,0 +1,6 @@
+.specification__wrapper {
+  width: 100%;
+  display: grid;
+  gap: 50px;
+  overflow: hidden;
+}

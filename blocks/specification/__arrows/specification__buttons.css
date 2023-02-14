@@ -1,0 +1,10 @@
+.specification__buttons {
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .specification__buttons {
+    gap: 10px;
+  }
+}

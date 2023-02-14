@@ -1,0 +1,59 @@
+.buttons {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .buttons {
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .buttons .buttons__label {
+    display: inline-block;
+    background-image: url(../../images/ellipse.svg);
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 4px;
+  }
+}
+
+#switch1:checked~.buttons .buttons__label[for="switch1"] {
+  background-image: url(../../images/ellipse_active.svg);
+}
+
+#switch2:checked~.buttons .buttons__label[for="switch2"] {
+  background-image: url(../../images/ellipse_active.svg);
+}
+
+#switch3:checked~.buttons .buttons__label[for="switch3"] {
+  background-image: url(../../images/ellipse_active.svg);
+}
+
+#switch4:checked~.buttons .buttons__label[for="switch4"] {
+  background-image: url(../../images/ellipse_active.svg);
+}
+
+#switch5:checked~.buttons .buttons__label[for="switch5"] {
+  background-image: url(../../images/ellipse_active.svg);
+}
+
+#switch6:checked~.buttons .buttons__label[for="switch6"] {
+  background-image: url(../../images/ellipse_active.svg);
+}
+
+#switch7:checked~.buttons .buttons__label[for="switch7"] {
+  background-image: url(../../images/ellipse_active.svg);
+}
+
+#switch8:checked~.buttons .buttons__label[for="switch8"] {
+  background-image: url(../../images/ellipse_active.svg);
+}
+
+#switch9:checked~.buttons .buttons__label[for="switch9"] {
+  background-image: url(../../images/ellipse_active.svg);
+}

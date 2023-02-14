@@ -1,0 +1,17 @@
+.quote__text {
+  max-width: 470px;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1.29;
+  letter-spacing: -0.5px;
+  color: #151515;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .quote__text {
+    max-width: 284px;
+    font-size: 23px;
+    line-height: 1.26;
+  }
+}

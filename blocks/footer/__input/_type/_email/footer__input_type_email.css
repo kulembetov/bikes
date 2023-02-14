@@ -1,0 +1,39 @@
+.footer__input_type_email {
+  min-width: 360px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 2.15;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+  opacity: .5;
+  outline: none;
+  transition: all .3s ease-in;
+  padding: 10px;
+}
+
+.footer__input_type_email:focus {
+  opacity: 1;
+}
+
+.footer__input_type_email:focus ~ .footer__button {
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__input_type_email {
+    min-width: 284px;
+    max-width: 284px;
+  }
+}
+
+.footer__input_type_email:focus + .footer__label,
+.footer__input_type_email:valid + .footer__label {
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 0.5;
+  top: -25px;
+  left: 0;
+  padding: 0px 10px 0px 10px;
+}

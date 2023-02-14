@@ -1,0 +1,17 @@
+.specification__list {
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  list-style-type: none;
+  gap: 20px;
+  padding: 0 170px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .specification__list {
+    display: flex;
+    gap: 0;
+    overflow: hidden;
+    padding: 0;
+  }
+}
