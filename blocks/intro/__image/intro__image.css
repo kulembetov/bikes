@@ -1,41 +1,46 @@
 .intro__image {
+  min-height: 836px;
   background: url("../../../images/manuel-will.png");
   background-position: center;
   background-size: cover;
-  margin-top: 20px;
-  min-height: 836px;
+  background-repeat: no-repeat;
   grid-area: 1 / 2 / 5 / 3;
   position: relative;
-}
-
-@media screen and (max-width: 1030px) {
-  .intro__image {
-    margin: 0 0 0 30px;
-    min-height: 348px;
-    grid-area: 2 / 1 / 3 / 1;
-  }
+  margin-top: 20px;
 }
 
 .intro__image::before {
   content: url("../../../images/bike.png");
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
   display: inline-block;
   border-radius: 20px;
-  width: 100px;
-  height: 100px;
+  width: 0;
+  height: 0;
   position: sticky;
-  display: block;
   object-fit: cover;
   transform: translate(-440px, 210px);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1050px) {
+  .intro__image {
+    min-height: 348px;
+    background: url("../../../images/manuel-will.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f4f4f4;
+    grid-area: 2 / 1 / 3 / 1;
+    margin: 0 0 0 48px;
+  }
   .intro__image::before {
+    width: auto;
+    height: auto;
     content: url("../../../images/bike-small.png");
-    width: 50px;
-    height: 50px;
+    background-color: #f4f4f4;
+    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+    background-repeat: no-repeat;
     position: sticky;
-    display: block;
     object-fit: cover;
-    transform: translate(-140px, 210px);
+    transform: translate(-30px, 150px);
+    padding: 10px 27px;
   }
 }

@@ -15,3 +15,9 @@
   width: 132px;
   border: 2px solid #d7d4d4;
 }
+
+@media screen and (max-width: 767px) {
+  .intro__copyright-title {
+    display: none;
+  }
+}

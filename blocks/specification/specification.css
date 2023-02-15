@@ -1,14 +1,16 @@
 .specification {
   max-width: calc(100% - 120px);
-  margin-left: auto;
   display: flex;
   flex-direction: column;
-  padding: 120px 0 0;
   gap: 50px;
+  padding: 60px 0 120px;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 767px) {
   .specification {
-    padding: 125px 18px 0;
+    max-width: 100%;
+    padding: 0;
+    margin-left: 0;
   }
 }

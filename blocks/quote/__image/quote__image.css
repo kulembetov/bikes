@@ -1,14 +1,6 @@
 .quote__image {
   width: 100%;
-  max-width: 650px;
-  max-height: 460px;
-  display: block;
+  height: 100%;
   object-fit: cover;
-}
-
-@media screen and (max-width: 767px) {
-  .quote__image {
-    max-width: 284px;
-    max-height: 204px;
-  }
+  object-position: center;
 }

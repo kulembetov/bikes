@@ -24,7 +24,7 @@
     </ul>
     <div class="header__menu"></div>
   </header>
-  <main>
+  <main class="content">
     <section class="intro">
       <h1 class="section-title section-title_section_intro">Шоссе, ТТ и Грэвел</h1>
       <p class="intro__description">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам
@@ -33,11 +33,12 @@
       <p class="intro__copyright-title">Cannondale Systemsix</p>
       <div class="intro__image"></div>
     </section>
+    <div class="line"></div>
     <section class="quote">
       <div class="quote__content">
         <img class="quote__image" src="./images/biker.png" alt="Картинка велосипедста в горах">
-        <div class="quote__description">
-          <q class="quote__text">Катайся много или мало, долго или коротко, как хочешь - но катайся</q>
+        <div class="quote__text">
+          <q class="quote__description">Катайся много или мало, долго или коротко, как хочешь - но катайся</q>
           <div class="quote__author-box">
             <p class="quote__author-name">Эдди Меркс</p>
             <p class="quote__author-work">Велогонщик</p>
@@ -49,6 +50,7 @@
       <div class="specification__wrapper">
         <div class="specification__box">
           <div class="specification__item">
+            <div class="line"></div>
             <div class="specification__text">
               <h2 class="section-title">Шоссе</h2>
               <p class="specification__description">На шоссейном велосипеде можно ездить по асфальту на разных
@@ -188,6 +190,7 @@
         </div>
       </div>
     </section>
+    <div class="line"></div>
     <section class="training" id="training">
       <h2 class="section-title">Тренировки</h2>
       <div class="training__text">
@@ -203,18 +206,21 @@
     </section>
   </main>
   <footer class="footer">
-    <h2 class="footer__title">Подпишитесь на рассылку —</h2>
-    <form class="footer__form" id="form" action="submit">
-      <input class="footer__input_type_email" type="email" name="email" required>
-      <label class="footer__label">Ваш e-mail</label>
-      <button class="footer__button" type="submit">OK</button>
-    </form>
-    <div class="footer__box">
-      <p class="footer__copyright">© Road Club 2021</p>
-      <div class="footer__switchers">
-        <img class="footer__image" src="./images/light-theme.svg" alt="Иконка светлой темы">
-        <input class="footer__input_type_switcher" type="checkbox" name="switcher">
-        <img class="footer__image" src="./images/dark-theme.svg" alt="Иконка тёмной темы">
+    <div class="footer__wrapper">
+      <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+      <form class="footer__form" id="form" action="submit">
+        <input class="footer__input_type_email" type="email" name="email" required>
+        <label class="footer__label">Ваш e-mail</label>
+        <button class="footer__button" type="submit">OK</button>
+      </form>
+      <div class="footer__box">
+        <p class="footer__copyright">© Road Club 2021</p>
+        <div class="footer__switchers">
+          <img class="footer__image" src="./images/settings.png" alt="Иконка настройки">
+          <img class="footer__image" src="./images/light-theme.svg" alt="Иконка светлой темы">
+          <input class="footer__input_type_switcher" type="checkbox" name="switcher">
+          <img class="footer__image" src="./images/dark-theme.svg" alt="Иконка тёмной темы">
+        </div>
       </div>
     </div>
   </footer>

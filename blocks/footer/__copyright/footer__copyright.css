@@ -4,11 +4,4 @@
   line-height: 1.4;
   color: #cfcfcf;
   margin: 0;
-  margin-top: 50px;
-}
-
-@media screen and (max-width: 767px) {
-  .footer__copyright {
-    margin-top: 59px;
-  }
 }

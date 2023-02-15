@@ -1,15 +1,17 @@
 .bikes {
+  max-width: calc(100% - 240px);
   display: flex;
   flex-direction: column;
   gap: 120px;
   position: relative;
-  padding: 120px;
+  padding: 0 0 60px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
   .bikes {
     max-width: 254px;
     gap: 20px;
-    padding: 40px 18px;
+    padding: 40px 0;
   }
 }

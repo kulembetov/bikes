@@ -1,5 +1,4 @@
 .training__description {
-  max-width: 460px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
@@ -10,7 +9,6 @@
 
 @media screen and (max-width: 767px) {
   .training__description {
-    max-width: 284px;
     font-size: 12px;
     line-height: 1.5;
   }

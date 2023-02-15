@@ -122,21 +122,3 @@ form.addEventListener("submit", function (e) {
   formEmail.value = "";
   openPopup(popupSubmit);
 });
-
-document.querySelector(".header__menu-button").addEventListener("click", () => {
-  document
-    .querySelector(".header__menu-button")
-    .classList.toggle("header__menu-button_close");
-  document.querySelector(".burger-menu").classList.toggle("burger-menu_active");
-});
-
-document.querySelectorAll(".menu__link").forEach((item) => {
-  item.addEventListener("click", () => {
-    document
-      .querySelector(".burger-menu")
-      .classList.remove("burger-menu_active");
-    document
-      .querySelector(".header__menu-button")
-      .classList.remove("header__menu-button_close");
-  });
-});
