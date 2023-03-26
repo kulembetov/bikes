@@ -1,9 +1,11 @@
 .footer__input_type_email {
+  color: var(--main-text-color);
   min-width: 360px;
+  background-color: transparent;
   font-weight: 500;
   font-size: 13px;
   line-height: 2.15;
-  border: 1px solid #cfcfcf;
+  border: 1px solid var(--border-color);
   border-radius: 4px;
   box-sizing: border-box;
   position: relative;

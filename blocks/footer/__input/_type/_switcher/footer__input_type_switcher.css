@@ -1,7 +1,7 @@
 .footer__input_type_switcher {
   width: 44px;
   height: 24px;
-  background-color: #fff;
+  background-color: var(--toggler-bg-color);
   border-radius: 100px;
   border: 2px solid transparent;
   box-sizing: border-box;
@@ -11,13 +11,13 @@
 }
 
 .footer__input_type_switcher:checked {
-  background-color: #545454;
+  background-color: var(bg);
 }
 
 .footer__input_type_switcher:before {
   width: 20px;
   height: 20px;
-  background-color: #24b47e;
+  background-color: var(--button-bg-color);
   content: "";
   position: absolute;
   top: 0;
@@ -27,7 +27,7 @@
 }
 
 .footer__input_type_switcher:checked:before {
-  background-color: #24b47e;
+  background-color: var(--button-bg-color);
   transform: translateX(100%);
 }
 

@@ -4,6 +4,7 @@
 
 @media screen and (max-width: 767px) {
   .bikes__select {
+    color: var(--main-text-color);
     display: inline-block;
     align-self: center;
     min-width: 114px;
@@ -13,7 +14,7 @@
     font-size: 11px;
     line-height: 1.27;
     outline: none;
-    border: 1px solid #e3e3e3;
+    border: 1px solid var(--border-color);
     border-radius: 2px;
     padding: 8px 12px;
     margin-top: 40px;

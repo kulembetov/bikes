@@ -208,9 +208,8 @@
   <footer class="footer">
     <div class="footer__wrapper">
       <h2 class="footer__title">Подпишитесь на рассылку —</h2>
-      <form class="footer__form" id="form" action="submit">
-        <input class="footer__input_type_email" type="email" name="email" required>
-        <label class="footer__label">Ваш e-mail</label>
+      <form class="footer__form" id="form-email" action="submit">
+        <input class="footer__input_type_email" type="email" name="email" placeholder="Ваш e-mail" required>
         <button class="footer__button" type="submit">OK</button>
       </form>
       <div class="footer__box">
@@ -218,7 +217,7 @@
         <div class="footer__switchers">
           <img class="footer__image" src="./images/settings.png" alt="Иконка настройки">
           <img class="footer__image" src="./images/light-theme.svg" alt="Иконка светлой темы">
-          <input class="footer__input_type_switcher" type="checkbox" name="switcher">
+          <input class="footer__input_type_switcher" type="checkbox" name="switcher" autocomplete="off">
           <img class="footer__image" src="./images/dark-theme.svg" alt="Иконка тёмной темы">
         </div>
       </div>
@@ -226,7 +225,7 @@
   </footer>
   <div class="popup" id="popup-submit">
     <div class="popup__overlay">
-      <form class="popup__form" id="form_submit" name="submit" method="post">
+      <form class="popup__form" name="submit" method="post">
         <div class="popup__text">
           <h2 class="popup__title">Рассылка</h2>
           <p class="popup__description">Вы успешно подписались на рассылку!</p>

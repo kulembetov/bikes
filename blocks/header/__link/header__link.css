@@ -1,5 +1,5 @@
 .header__link {
-  color: #151515;
+  color: var(--main-text-color);
   text-decoration: none;
   transition: all .3s ease-in-out;
 }

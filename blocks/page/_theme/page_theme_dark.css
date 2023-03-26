@@ -1,0 +1,8 @@
+.page_theme_dark {
+  --main-text-color: #fff;
+  --second-text-color: #e5e5e5;
+  --main-bg-color: #333;
+  --toggler-bg-color: #545454;
+  --border-color: #7d7d7d
+  ;
+}

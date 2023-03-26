@@ -2,6 +2,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.6;
+  color: var(--second-text-color);;
   margin: 0;
 }
 

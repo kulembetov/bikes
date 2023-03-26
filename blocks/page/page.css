@@ -3,6 +3,13 @@
   max-width: 1440px;
   min-height: 100vh;
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  background: #f4f4f4;
+  background: var(--main-bg-color);
+  transition: 1s;
   margin: 0 auto;
+  --main-text-color: #151515;
+  --second-text-color: #222;
+  --main-bg-color: #f4f4f4;
+  --button-bg-color: #24b47e;
+  --toggler-bg-color: #fff;
+  --border-color: #e3e3e3;
 }

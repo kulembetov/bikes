@@ -3,7 +3,7 @@
   font-size: 55px;
   line-height: 1.09;
   letter-spacing: -0.5px;
-  color: #151515;
+  color: var(--second-text-color);
   margin: 0;
 }
 

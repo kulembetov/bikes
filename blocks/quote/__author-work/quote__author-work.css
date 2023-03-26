@@ -2,7 +2,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.75;
-  color: #222;
+  color: var(--second-text-color);
   opacity: 0.7;
   margin: 0;
 }
